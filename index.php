@@ -10,7 +10,7 @@ if ($db){
         if ( strpos(trim($row['CLIENTNAME']), $clientname)  !== FALSE and $row['deleted'] != 1) {
             $clientid =  $row['CLIENTID'];
 
-				//echo 'Customer ID Number: ',$clientid,';
+				echo 'Customer ID Number: ',$clientid,';
                  }
      }
 }
